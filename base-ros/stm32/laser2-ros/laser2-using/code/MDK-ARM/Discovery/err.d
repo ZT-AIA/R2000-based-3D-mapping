@@ -1,0 +1,11 @@
+.\discovery\err.o: ..\..\libraries\lwip-1.4.1\src\api\err.c
+.\discovery\err.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/err.h
+.\discovery\err.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/opt.h
+.\discovery\err.o: ..\inc\lwipopts.h
+.\discovery\err.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\discovery\err.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\discovery\err.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/debug.h
+.\discovery\err.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/arch.h
+.\discovery\err.o: ..\..\libraries\lwip-1.4.1\port\STM32F4x7\arch/cc.h
+.\discovery\err.o: ..\..\libraries\lwip-1.4.1\port\STM32F4x7\arch/cpu.h
+.\discovery\err.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/opt.h

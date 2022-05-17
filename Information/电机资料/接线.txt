@@ -1,0 +1,49 @@
+2 地线 --蓝色 粗
+3 电源 24V  棕粗
+
+9：最细的黑色                                       CCW  方向
+10：最细的绿色                                    CCW非  方向
+
+11：最细的红色                                    CW     PLS
+12：最细的白色                                    CW非  PLS非
+
+13：较粗黑色                                       B相输出
+14：较粗棕色（电源线颜色差不多）       接地
+15：较粗红色                                       A相输出
+16：较粗黄色                                       接地
+
+9+  10-
+
+双相输入模式:
+CW （PWM输出）连接到12
+CCW（PWM输出）连接到10
+这样用两路信号控制电机运转，CW脉冲起作用时，向ccw方向转，反之亦然
+
+也可以只接一路，PWM输出接到9,10接地，这样电机一直朝一个方向运动。
+
+
+单相输入模式“：
+高低电平接到9 10 控制方向
+脉冲接到11 12提供动力
+
+ 
+
+
+
+
+
+============================================
+cortex A9开发板引脚定义和连接
+==================================================
+//  eQEP0_INDEX  M25     GPIO3_3      mod1    MCASP0_AXR1   index信号
+//  eQEP0_STROBE L24    GPI03_21       mod1    MCASP0_AHCLKX
+//  eQEP0A_IN    L23       GPIO3_18       mod1    MCASP0_ACLKR
+//  eQEP0B_IN    K23       GPIO3_19       mod1    MCASP0_FSR
+
+
+//GPIO20  eQEP0A_IN      <        控制板A相输出  正
+//GPIO21  eQEP0B_IN      <       控制板B相输出  负
+//GPIO23  eQEP0_INDEX  <            Index Signal
+J15   2, 3, 4, 5 对应  
+A_IN,  B_IN,  INDEX,  STROBE
+

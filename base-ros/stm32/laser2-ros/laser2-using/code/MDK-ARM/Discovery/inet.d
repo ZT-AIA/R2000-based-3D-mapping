@@ -1,0 +1,13 @@
+.\discovery\inet.o: ..\..\libraries\lwip-1.4.1\src\core\ipv4\inet.c
+.\discovery\inet.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/opt.h
+.\discovery\inet.o: ..\inc\lwipopts.h
+.\discovery\inet.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\discovery\inet.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\discovery\inet.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/debug.h
+.\discovery\inet.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/arch.h
+.\discovery\inet.o: ..\..\libraries\lwip-1.4.1\port\STM32F4x7\arch/cc.h
+.\discovery\inet.o: ..\..\libraries\lwip-1.4.1\port\STM32F4x7\arch/cpu.h
+.\discovery\inet.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/opt.h
+.\discovery\inet.o: ..\..\libraries\lwip-1.4.1\src\include\ipv4\lwip/inet.h
+.\discovery\inet.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/def.h
+.\discovery\inet.o: ..\..\libraries\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h

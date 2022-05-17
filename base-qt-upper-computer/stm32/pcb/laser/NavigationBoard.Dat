@@ -1,0 +1,26 @@
+Field=Comment~String~Comment~125|Field=Description~String~Description~125|Field=Designator~String~Designator~281|Field=Footprint~String~Footprint~73|Field=LibRef~String~LibRef~73|Field=Quantity~Integer~Quantity~73|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~NavigationBoard.PrjPCB|ReportField=ProjectFullPath~C:\Users\liuwenlong\Desktop\电路板\laser\NavigationBoard.PrjPCB|ReportField=Title~Bill of Materials For Project [NavigationBoard.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~100|ReportField=ReportTime~19:57:16|ReportField=ReportDate~2018/4/27|ReportField=ReportDateTime~2018/4/27 19:57:16|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2018/4/27|ReportField=CurrentTime~19:55:33|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\liuwenlong\Desktop\电路板\laser\Navigation_Controll.SchDoc|ReportField=DocumentName~Navigation_Controll.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2018/4/14|ReportField=Organization~|ReportField=ProjectName~NavigationBoard.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=Application_BuildNumber~|ReportField=DataSourceFileName~NavigationBoard.PrjPCB|ReportField=DataSourceFullPath~C:\Users\liuwenlong\Desktop\电路板\laser\NavigationBoard.PrjPCB
+CAP||C1, C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13, C14, C15, C16, C17, C18, C19, C20, C21, C22, C23, C24, C25, C26, C27, C28, C31, C33, C41, C42, C43, C44, C45|CAP-0805|CAP|35
+CAP 330uF||C29, C30, C32, C36|ECAP_S|CAP 330uF|4
+CAP 10UF||C34, C35|CAP_B|CAP 10UF|2
+SS34||D1, D3|DO214AC|SS34|2
+SMBJ12CA||D2|DO214AB|SMBJ30CA|1
+400mA||F1|MF_R030|MF_R030|1
+HDR1*4||J1|HDR1*4|HDR1*4|1
+DG3P||J2, J5|DG381-3P|DG3P|2
+DG2P||J3, J9|DG381-2P|DG2P|2
+DG2P||J4|DG508-2P|DG2P|1
+HDR1*8||J7, J8|KF128L-8P|HDR1*8|2
+LED||L1, L3|LED-0805|LED|2
+INDUCTOR||L2|PWR_L|INDUCTOR|1
+RES||R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20|RES-0805|RES|20
+RES||R21, R22, R23, R24, R25, R26, R27, R28, R29, R30|0805|RES|10
+HR91115A||RJ45|RJ45_ISO|NET_PORT|1
+STM32F407VGT6||U1|STM32-LQFP100|STM32F407VGT6|1
+8MHZ||U2|OSC_S|OSC|1
+OSC||U3|OSC_S|OSC|1
+DP83848||U4|LQFP48|DP83848|1
+LM2596||U5|TO263|LM2576/96|1
+AMS117-3V3||U6|AMS1117|AMS117-3V3|1
+6N136||U7, U8, U10, U11, U12|SOP8|Component_1|5
+MAX3237||U9|SSOP28|MAX3237|1
+RESPOT||W1|RESPOT1|RESPOT|1

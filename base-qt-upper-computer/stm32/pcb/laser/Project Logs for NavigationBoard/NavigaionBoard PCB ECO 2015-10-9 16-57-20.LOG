@@ -1,0 +1,4 @@
+Added Component: Designator=J9(DG381-2P)
+Added Pin To Net: NetName=GND Pin=J9-1
+Added Pin To Net: NetName=NetC36_1 Pin=J9-2
+Added Member To Class: ClassName=Navigation_Controll Member=Component J9 DG2P

@@ -1,0 +1,10 @@
+.\discovery\stats.o: ..\..\libraries\lwip-1.4.1\src\core\stats.c
+.\discovery\stats.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/opt.h
+.\discovery\stats.o: ..\inc\lwipopts.h
+.\discovery\stats.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\discovery\stats.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\discovery\stats.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/debug.h
+.\discovery\stats.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/arch.h
+.\discovery\stats.o: ..\..\libraries\lwip-1.4.1\port\STM32F4x7\arch/cc.h
+.\discovery\stats.o: ..\..\libraries\lwip-1.4.1\port\STM32F4x7\arch/cpu.h
+.\discovery\stats.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/opt.h

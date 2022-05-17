@@ -1,0 +1,6 @@
+..\..\libraries\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_tim.c -E -c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork -I ..\inc -I ..\src -I ..\..\libraries\CMSIS\Include -I ..\..\libraries\CMSIS\Device\ST\STM32F4xx\Include -I ..\..\libraries\STM32F4x7_ETH_Driver\inc -I ..\..\libraries\STM32F4xx_StdPeriph_Driver\inc -I ..\..\libraries\STM32F4-Discovery -I ..\..\libraries\lwip-1.4.1\port\STM32F4x7 -I ..\..\libraries\lwip-1.4.1\src\include -I ..\..\libraries\lwip-1.4.1\src\include\ipv4 -I ..\..\libraries\lwip-1.4.1\src\include\lwip -I ..\..\libraries\lwip-1.4.1\src\include\netif -I ..\..\libraries\lwip-1.4.1\port\STM32F4x7\arch -I ..\..\libraries\rtx-v4.73\INC -I ..\..\libraries\rtx-v4.73\SRC -I ..\..\libraries\ptpd-2.0.0\src -I ..\inc\system -I ..\inc\laser -I ..\inc\motorCtrl -I ..\..\libraries\lwip-1.4.1\src\include\ipv4\lwip
+-I d:\Keil_v5\ARM\RV31\INC
+-I d:\Keil_v5\ARM\CMSIS\Include
+-I d:\Keil_v5\ARM\Inc\ST\STM32F4xx
+-D__UVISION_VERSION="520" -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__CORTEX_M4F -D__FPU_PRESENT -D__CMSIS_RTOS -DSTM32F40_41xxx
+-o .\discovery\stm32f4xx_tim.i --list_dir ".\\Discovery\\" --list

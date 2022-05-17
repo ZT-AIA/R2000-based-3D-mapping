@@ -1,0 +1,8 @@
+<launch>
+    <!--<include file="$(find learning_tf)/launch/start_tf_demo_c++.launch"/>-->
+    <!--<node pkg="ros_pcd" type="listen_pcd" name="rospcd" output="screen"/>-->
+    <!--include file="$(find pepperl_fuchs_r2000)/launch/r2000.launch"/-->
+    <node pkg="ros_pcd" type="laser_pcd" name="global_map" output="screen"/>
+    <!--node pkg="tf" type="static_transform_publisher" name="cloudsfram" args="0.0 0.0 0.0 0.0 0.0 0.0 map clouds 100" /-->
+    <node pkg="rviz" type="rviz" name="$(anon rviz)" respawn="false" output="screen" args="-d $(find ros_pcd)/rviz/pcls.rviz"/>
+</launch>

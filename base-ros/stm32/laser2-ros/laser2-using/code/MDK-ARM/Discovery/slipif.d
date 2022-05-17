@@ -1,0 +1,16 @@
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\src\netif\slipif.c
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\src\include\netif/slipif.h
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/opt.h
+.\discovery\slipif.o: ..\inc\lwipopts.h
+.\discovery\slipif.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdio.h
+.\discovery\slipif.o: D:\MDK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/debug.h
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/arch.h
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\port\STM32F4x7\arch/cc.h
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\port\STM32F4x7\arch/cpu.h
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/opt.h
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/netif.h
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/err.h
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\src\include\ipv4\lwip/ip_addr.h
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/def.h
+.\discovery\slipif.o: ..\..\libraries\lwip-1.4.1\src\include\lwip/pbuf.h
